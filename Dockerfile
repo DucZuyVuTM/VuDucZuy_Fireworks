@@ -4,7 +4,6 @@ WORKDIR /app
 
 COPY requirements.txt .
 
-RUN npm install fireworks-js
 RUN pip install -r requirements.txt
 
 COPY . .
